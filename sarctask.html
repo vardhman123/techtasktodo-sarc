@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <title>to do list</title>
+    <!-- <img src="idown3.png" alt="img" id="img"> -->
+    <h1>To Do List</h1>
+    <div class="container">
+    <input type="text" id = 'inputfeild' placeholder="enter your task"><button onclick="addtask()" >+</button></div>
+     <div id="todocontainer" class="todocontainer">
+
+     </div>
+ 
+   
+    <script >
+  
+        let inputfeild = document.getElementById('inputfeild');
+        let todocontainer = document.getElementById('todocontainer');
+        let container = document.getElementById('container');
+        let k=0;
+        function addtask(){
+              k++;
+             var para = document.createElement('p');
+             para.innerText="task "+k+":"+inputfeild.value;
+             todocontainer.appendChild(para);
+             inputfeild.value="";
+        
+         para.addEventListener('click',tick)
+         function tick(){
+          para.style.textDecoration ='line-through';
+          para.style.textDecorationColor='#bc6c25' ;
+        //   para.style.border='1px white';
+          
+        }
+       
+    }
+                
+
+        
+
+
+        </script>
+</html>
+

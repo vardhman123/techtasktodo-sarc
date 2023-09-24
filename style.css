@@ -1,0 +1,65 @@
+h1{
+    color:#FFB703 ;
+    padding-left: 25%;
+    padding-right: 25%;
+     margin-top: 0px;
+    margin-bottom: 10px;
+    margin-right: 150px;
+    margin-left: 80px;
+    font-family: "Lucida Console", "Courier New", monospace;
+    font-size: 80px;}
+      /* text-decoration: underline;} */
+    
+.container{
+    margin-top: 100px;
+    margin-bottom: 0px;
+    margin-right: 150px;
+    margin-left: 80px;
+    padding: 10px;
+    border-radius: 5px 5px 0px 0px;
+    color: aqua;
+    background-color: #023047;}
+
+     button{
+        /* margin-right: 120px; */
+     /* margin-left: 0px;  */
+     width: 5%;
+     background-color: #219EBC;
+     color: white;
+     padding: 12.5px 20px;
+     margin: 8px 0;
+     border: none;
+     border-radius: 0px 4px 4px 0px;
+     cursor: pointer;
+     font-family: "Lucida Console", "Courier New", monospace;
+    } 
+    #inputfeild{
+        margin-left: 100px; 
+        width: 80%;
+        padding: 11.5px 20px;
+        /* margin: 300px 0; */
+        display: inline-block;
+        border: 1px solid #b8b1b1;
+        border-radius:4px 0px 0px 4px ;
+        box-sizing: border-box;
+        font-family: "Lucida Console", "Courier New", monospace;
+        background-color: #ede3e3;
+      }
+    
+.todocontainer{ 
+    margin-top: 0px;
+    margin-bottom: 100px;
+    margin-right: 150px;
+    margin-left: 80px;
+    padding: 100px;
+    padding-top: 10px;
+    border-radius: 0px 0px 5px 5px;
+    background-color:#FB8500;
+    color:#bc6c25;
+    font-family: "Lucida Console", "Courier New", monospace;
+    }
+*{
+    background-color: #fefae0;
+     border-radius: 2px;
+     padding: 2px;
+}
